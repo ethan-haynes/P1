@@ -30,6 +30,38 @@ hr {
     margin-right: 2em;
 }
 
+span div {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    color: grey;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 4px 1px 4px 1px;
+}
+
+img[alt="portrait"] {
+    height: 15em;
+    border-radius: 3em;
+}
+
+@keyframes darken {
+    from {filter: brightness(1);}
+    to {filter: brightness(.6);}
+}
+
+img[alt="portrait"]:hover {
+    animation-name: darken;
+    animation-duration: 1s;
+    filter: brightness(.6);
+}
+
+button {
+   position: absolute;
+   left: 50%;
+   z-index: 2;
+   visibility: hidden;
+}
+
 .container {
     text-align: center;
     display: table-cell;
@@ -86,24 +118,4 @@ hr {
 .img-container {
     border: 2px solid lightblue;
     width: 19em;
-}
-
-img[alt="portrait"] {
-    height: 15em;
-    border-radius: 3em;
-}
-
-img[alt="landscape"] {
-    max-width: 100%;
-    height: auto;
-    position: relative; top: 0; left: 0;
-}
-
-span div {
-    display: inline-block;
-    border: 1px solid lightgrey;
-    color: grey;
-    border-radius: 5px;
-    margin: 1em;
-    padding: 4px 1px 4px 1px;
 }

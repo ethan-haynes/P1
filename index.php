@@ -17,6 +17,7 @@
             <div class="col-md-8 container">
                 <div class="content">
                     <div class="title">Ethan Haynes</div>
+                        <button type="button" name="button">button</button>
                         <img src="head.JPG" alt="portrait"/>
                         <div class="row">
                             <span>
