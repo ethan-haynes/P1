@@ -13,4 +13,4 @@ Frameworks: Bootstrap
 GoogleFonts: Lato
 
 ## License
-[MIT](http://opensource.org/licenses/MIT).
+[MIT](http://opensource.org/licenses/MIT)
