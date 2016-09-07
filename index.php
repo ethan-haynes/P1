@@ -8,15 +8,25 @@
             <link rel="stylesheet" href="css/style.css">
             <script src="js/jquery.min.js" type="text/javascript"></script>
             <script src="js/bootstrap.min.js" type="text/javascript"></script>
+            <script src="js/main.js" type="text/javascript"></script>
 
         </head>
     <body>
         <div class="row">
-
         <div class="col-md-2"></div>
             <div class="col-md-8 container">
                 <div class="content">
                     <div class="title">Ethan Haynes</div>
+                        <img src="head.JPG" alt="portrait"/>
+                        <div class="row">
+                            <span>
+                            <div>tags</div>
+                            <div>tags</div>
+                            <div>tags</div>
+                            <div>tags</div>
+                            </span>
+                        </div>
+                    </div>
                         <ul>
                             <hr>
                             <li>
@@ -44,7 +54,6 @@
                             </li>
                         </ul>
                 </div>
-            </div>
             <div class="col-md-2"></div>
         </div>
     </body>
