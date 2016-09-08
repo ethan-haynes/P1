@@ -10,6 +10,8 @@
 
 html, body {
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
@@ -60,6 +62,16 @@ button {
    left: 50%;
    z-index: 2;
    visibility: hidden;
+}
+
+.landing{
+    height: 500px;
+    width: 100%;
+    background-color: #8AE9C1;
+}
+
+.navbar {
+    background-color: #8AE9C1;
 }
 
 .container {

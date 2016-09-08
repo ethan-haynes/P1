@@ -12,6 +12,12 @@
 
         </head>
     <body>
+        <div class="landing"> landing... </div>
+
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+            </div>
+        </nav>
         <div class="row">
         <div class="col-md-2"></div>
             <div class="col-md-8 container">
