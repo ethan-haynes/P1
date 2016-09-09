@@ -18,6 +18,11 @@
 
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
+                <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#">Disabled link</a></li>
+                    <li role="presentation"><a href="#">Disabled link</a></li>
+                    <li role="presentation"><a href="#">Disabled link</a></li>
+                </ul>
             </div>
         </nav>
         <br>
