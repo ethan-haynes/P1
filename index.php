@@ -8,6 +8,8 @@
             <link rel="stylesheet" href="css/style.css">
             <script src="js/jquery.min.js" type="text/javascript"></script>
             <script src="js/bootstrap.min.js" type="text/javascript"></script>
+            <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
             <script src="js/main.js" type="text/javascript"></script>
 
         </head>
@@ -18,6 +20,9 @@
             <div class="container">
             </div>
         </nav>
+        <br>
+        <br>
+        <br>
         <div class="row">
         <div class="col-md-2"></div>
             <div class="col-md-8 container">
