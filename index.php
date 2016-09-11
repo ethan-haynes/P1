@@ -39,10 +39,10 @@
                         <img src="head.JPG" alt="portrait"/>
                         <div class="row">
                             <span>
-                            <div>P1</div>
-                            <div>P2</div>
-                            <div>P3</div>
-                            <div>P4</div>
+                            <a href="#"><div>P1</div></a>
+                            <a href="#"><div>P2</div></a>
+                            <a href="#"><div>P3</div></a>
+                            <a href="#"><div>P4</div></a>
                             </span>
                         </div>
                     </div>

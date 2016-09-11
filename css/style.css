@@ -65,6 +65,10 @@ hr {
     margin: 1em;
     padding: 1px 4px 1px 4px;
 }
+.content span div:hover {
+    border: 1px solid lightblue;
+    color: blue;
+}
 
 img[alt="portrait"] {
     height: 15em;
