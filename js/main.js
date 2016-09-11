@@ -4,49 +4,53 @@
 
     //Document ready
     $(function() {
-        //focus on page load
-        $('.landing').focus();
+        var top = $('body').offset().top;
+        var TOP = 0; //top of page
         var navBar = $('.navbar-default');
         var navTop = navBar.position().top;
-        var islocked = false;
-        var disabled = false;
+        var islocked = false; // if navBar is locked to top of screen
+        var disabled = false; // prevent other animations until first promise is returned
 
         $(window).scroll(function(event){
             if (disabled) { return; }
 
-            var st = $(this).scrollTop();
-            if (st < navTop && !islocked) {
-                disabled = !disabled;
+            var sTop = $(this).scrollTop();
 
-                $('html, body').animate({
-                    scrollTop: navTop
-                },700, 'easeOutExpo');
+            if (TOP < sTop && sTop < navTop && !islocked) {
+                windowAnimation(navTop + navBar.height(), "static", "fixed");
+            } else if (sTop < navTop && islocked) {
+                windowAnimation(TOP, "fixed", "static");
+            }
+        });
 
-                $( 'html, body' ).promise().done(function() {
-                    disabled = !disabled;
-                    swapClass("static", "fixed");
-                });
-            } else if (st < navTop && islocked) {
-                // upscroll code
-                disabled = !disabled;
+        var windowAnimation = function(location, firstClass, secondClass) {
+            disabled = !disabled;
 
-                swapClass("fixed", "static");
-                $('html, body').animate({
-                    scrollTop: 0
-                },500, 'easeOutExpo');
+            scrollAnimation(location); //scrolls either up or down
 
-                $( 'html, body' ).promise().done(function() {
-                    disabled = !disabled;
-                });
-        }
-    });
+            swapClasses(firstClass, secondClass); //swaps nav class
 
-        var swapClass = function(toSwap, swapped) {
-            navBar
-            .removeClass(`navbar-${toSwap}-top`)
-            .addClass(`navbar-${swapped}-top`);
+            releaseAnimation();
+        };
+
+        var swapClasses = function(toSwap, swapped) {
+            navBar.removeClass( `navbar-${toSwap}-top` )
+                  .addClass( `navbar-${swapped}-top` );
 
             islocked = !islocked;
         };
+
+        var scrollAnimation = function(location) {
+            $('html, body').animate({
+                scrollTop: location
+            },400, 'easeOutExpo');
+        };
+
+        var releaseAnimation = function() {
+            $( 'html, body' ).promise().done(function() {
+                disabled = !disabled;
+            });
+        };
+
     });
 })(jQuery);

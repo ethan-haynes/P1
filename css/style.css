@@ -8,6 +8,31 @@
        format('woff');
 }
 
+@media screen and (max-width: 1600px) {
+.landing div { font-size:25rem; }
+.landing span div { font-size:12.5rem; }
+}
+
+@media screen and (max-width: 1024px) {
+.landing div { font-size:20rem; }
+.landing span div { font-size:10rem; }
+}
+
+@media screen and (max-width: 950px) {
+ .landing div { font-size:15rem; }
+ .landing span div { font-size:7.5rem; }
+}
+
+@media screen and (max-width: 650px) {
+ .landing div { padding-top: 1em; font-size:10rem; }
+ .landing span div { font-size:5rem; }
+}
+
+@media screen and (max-width: 480px) {
+ .landing div {  padding-top: 1em; font-size:8rem; }
+ .landing span div { font-size:4rem; }
+}
+
 html, body {
     height: 100%;
     max-width: 100%;
@@ -32,13 +57,13 @@ hr {
     margin-right: 2em;
 }
 
-span div {
+.content span div {
     display: inline-block;
     border: 1px solid lightgrey;
     color: grey;
     border-radius: 5px;
     margin: 1em;
-    padding: 4px 1px 4px 1px;
+    padding: 1px 4px 1px 4px;
 }
 
 img[alt="portrait"] {
@@ -64,10 +89,15 @@ button {
    visibility: hidden;
 }
 
-.landing{
+.landing {
     height: 80rem;
     width: 100%;
     background-color: #8AE9C1;
+}
+
+.landing div {
+    color:white;
+    text-align:center;
 }
 
 .navbar {

@@ -14,20 +14,22 @@
 
         </head>
     <body>
-        <div class="landing"> landing... </div>
-
-        <nav class="navbar navbar-default navbar-static-top">
+        <div class="row"><div class="col-md-12 landing"> <div>Welcome</div> <span><div>this is a website</div> </span></div></div>
+        <div class="row">
+        <nav class="col-md-12 navbar navbar-default navbar-static-top">
             <div class="container">
                 <ul class="nav nav-pills">
-                    <li role="presentation"><a href="#">Disabled link</a></li>
-                    <li role="presentation"><a href="#">Disabled link</a></li>
-                    <li role="presentation"><a href="#">Disabled link</a></li>
+                    <li role="presentation"><a href="#">Project 1</a></li>
+                    <li role="presentation"><a href="#">Project 2</a></li>
+                    <li role="presentation"><a href="#">Project 3</a></li>
+                    <li role="presentation"><a href="#">Project 4</a></li>
                 </ul>
             </div>
         </nav>
         <br>
         <br>
         <br>
+    </div>
         <div class="row">
         <div class="col-md-2"></div>
             <div class="col-md-8 container">
@@ -37,10 +39,10 @@
                         <img src="head.JPG" alt="portrait"/>
                         <div class="row">
                             <span>
-                            <div>tags</div>
-                            <div>tags</div>
-                            <div>tags</div>
-                            <div>tags</div>
+                            <div>P1</div>
+                            <div>P2</div>
+                            <div>P3</div>
+                            <div>P4</div>
                             </span>
                         </div>
                     </div>
