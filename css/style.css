@@ -1,11 +1,17 @@
+/*color-dark: #5CA7F2*/
+/*color-light: #DBEAFE*/
+/*color-maintext: #7B7B7B*/
+/*color-texthover: #9FCBF7*/
+/*color-title: #636AA2*/
+
+
+/* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Ubuntu';
   font-style: normal;
-  font-weight: 100;
-  src: local('Lato Hairline'),
-       local('Lato-Hairline'),
-       url(https://fonts.gstatic.com/s/lato/v11/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff)
-       format('woff');
+  font-weight: 400;
+  src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v9/zvCUQcxqeoKhyOlbifSAaevvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 @media screen and (max-width: 1600px) {
@@ -39,13 +45,15 @@ html, body {
     overflow-x: hidden;
     padding: 0;
     margin: 0;
+    background-color: #DBEAFE;
 }
 
 body {
     width: 100%;
     display: table;
     font-weight: 100;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #7B7B7B;
 }
 
 li {
@@ -59,15 +67,15 @@ hr {
 
 .content span div {
     display: inline-block;
-    border: 1px solid lightgrey;
-    color: grey;
+    border: 1px solid #636AA2;
+    color: #636AA2;
     border-radius: 5px;
     margin: 1em;
     padding: 1px 4px 1px 4px;
 }
 .content span div:hover {
-    border: 1px solid lightblue;
-    color: blue;
+    border: 1px solid #9FCBF7;
+    color: #9FCBF7;
 }
 
 img[alt="portrait"] {
@@ -85,6 +93,14 @@ img[alt="portrait"]:hover {
     animation-duration: 1s;
     filter: brightness(.6);
 }
+li[role="presentation"] a {
+    color: #DBEAFE;
+}
+
+li[role="presentation"] a:hover {
+    background-color: #5CA7F2;
+    color: #636AA2;
+}
 
 button {
    position: absolute;
@@ -96,16 +112,16 @@ button {
 .landing {
     height: 80rem;
     width: 100%;
-    background-color: #8AE9C1;
+    background-color: #5CA7F2;
 }
 
 .landing div {
-    color:white;
+    color:#DBEAFE;
     text-align:center;
 }
 
 .navbar {
-    background-color: #8AE9C1;
+    background-color: #5CA7F2;
 }
 
 .container {
@@ -128,7 +144,7 @@ button {
 
 .title {
     font-size: 96px;
-    color: lightblue;
+    color: #636AA2;
 }
 
 .line {
@@ -144,16 +160,8 @@ button {
     border-radius: 10em;
     height: 2em;
     width: 2em;
-    background-color: lightgrey;
+    background-color: #9FCBF7;
     margin-left: 2em;
-}
-
-.v-line {
-    position: absolute;
-    height: 100%;
-    width: 1px;
-    background-color: red;
-    z-index: -1;
 }
 
 .article-title {
@@ -162,6 +170,12 @@ button {
 }
 
 .img-container {
-    border: 2px solid lightblue;
+    border: 2px solid #636AA2;
     width: 19em;
+}
+
+.divider {
+    background-color: #5CA7F2;
+    height: 10em;
+    width: 100%;
 }
