@@ -36,7 +36,7 @@
                 <div class="content">
                     <div class="title">Ethan Haynes</div>
                         <button type="button" name="button">button</button>
-                        <img src="head.jpg" alt="portrait"/>
+                        <img src="imgs/head.jpg" alt="portrait"/>
                         <div class="row">
                             <span>
                             <a href="#"><div>P1</div></a>
