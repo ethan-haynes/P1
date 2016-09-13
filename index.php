@@ -38,10 +38,18 @@
                         <img src="imgs/head.jpg" alt="portrait"/>
                         <div class="row">
                             <span>
-                            <a href="#"><div>P1</div></a>
-                            <a href="#"><div>P2</div></a>
-                            <a href="#"><div>P3</div></a>
-                            <a href="#"><div>P4</div></a>
+                            <a href="#"><div>P1 [live]</div></a>
+                            <a href="#"><div>P1 [github]</div></a>
+                            <a href="#"><div>P2 [live]</div></a>
+                            <a href="#"><div>P2 [github]</div></a>
+                            </span>
+
+                            <div></div>
+                            <span>
+                            <a href="#"><div>P3 [live]</div></a>
+                            <a href="#"><div>P3 [github]</div></a>
+                            <a href="#"><div>P4 [live]</div></a>
+                            <a href="#"><div>P4 [github]</div></a>
                             </span>
                         </div>
                     </div>
