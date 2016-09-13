@@ -111,7 +111,7 @@ button {
 }
 
 .landing {
-    height: 80rem;
+    height: 85rem;
     width: 100%;
     background-color: #5CA7F2;
 }
@@ -142,6 +142,8 @@ button {
     text-align: justify;
     text-justify: inter-word;
 }
+
+.inner div { padding-left: 3rem; padding-bottom: 1rem;}
 
 .title {
     font-size: 96px;

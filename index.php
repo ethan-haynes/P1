@@ -11,10 +11,9 @@
             <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
             <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
             <script src="js/main.js" type="text/javascript"></script>
-
         </head>
     <body>
-        <div class="row"><div class="col-md-12 landing"> <div>Welcome</div> <span><div>this is a website</div> </span></div></div>
+        <div class="row"><div class="col-md-12 landing"> <div>Welcome</div> <span><div>this is project 1</div> </span></div></div>
         <div class="row">
         <nav class="col-md-12 navbar navbar-default navbar-static-top">
             <div class="container">
@@ -52,23 +51,32 @@
                                 <div class="row">
                                     <div class="row">
                                         <div class="col-xs-2 col-md-1"></div>
-                                        <h2 class="col-xs-10 col-md-9 article-title text-left">words</h2>
+                                        <h2 class="col-xs-10 col-md-9 article-title text-left">Questions</h2>
                                     </div>
                                     <div class="col-xs-4 col-md-2 circle">
                                         <div class="v-line"></div>
                                     </div>
-                                    <div class="col-xs-8 col-md-10 inner">ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes</div>
-                                </div>
-                            </li>
-                            <hr>
-                            <li>
-                                <div class="row">
-                                    <div class="row">
-                                        <div class="col-xs-2 col-md-1"></div>
-                                        <h2 class="col-xs-10 col-md-9 article-title text-left">words</h2>
+                                    <div class="col-xs-8 col-md-10 inner">
+                                        <p>What is your name as listed with HES and what you prefer to be called (if different than what is listed)?</p>
+
+                                        <div>Name: Ethan Haynes</div>
+
+                                        <p>What do you do?</p>
+
+                                        <div>I am a software engineer at an IT consulting firm in Dallas, TX. I mainly work with java in my everyday job. I do some front-end work with JSP, CSS, XML, Javascript, but not much. In my free time I work full-stack on far too many side projects.</div>
+
+                                        <p>Why are you taking this course?</p>
+                                        <div>I am a degree candidate here at Harvard University Extension School, and this is one of the last courses I need to fulfill my degree requirement. Secondly, I took this course because I am interested in learning more about developing web applications in different languages and frameworks. I feel it is important to sharpen my skills in as many areas as possible to stay relevant.</div>
+                                        <p>Anything else you'd like to share?</p>
+                                        <div>
+                                            One of the more interesting projects I worked on was developing an application in Java that takes a dataset of city coordinates and determines an optimal tour of minimal distance to solve the Traveling Salesman Problem. This was accomplished using Genetic Algorithms and Crossover and Mutation Operators. Neat stuff.
+                                        </div>
+                                        <div>
+                                            I am currently building a desktop game with the Electron framework. It is javascript, CSS, and HTML on the front-end and Node.js on the backend. The game map is an isometric grid with sprites generated by HTML5 canvas.
+                                        </div>
+
+
                                     </div>
-                                    <div class="col-xs-4 col-md-2 circle"></div>
-                                    <div class="col-xs-8 col-md-10 inner">ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes</div>
                                 </div>
                             </li>
                         </ul>
@@ -79,37 +87,6 @@
         <div class="row">
             <div class="col-md-12 divider">
 
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <ul>
-                    <hr>
-                    <li>
-                        <div class="row">
-                            <div class="row">
-                                <div class="col-xs-2 col-md-1"></div>
-                                <h2 class="col-xs-10 col-md-9 article-title text-left">words</h2>
-                            </div>
-                            <div class="col-xs-4 col-md-2 circle">
-                                <div class="v-line"></div>
-                            </div>
-                            <div class="col-xs-8 col-md-10 inner">ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes</div>
-                        </div>
-                    </li>
-                    <hr>
-                    <li>
-                        <div class="row">
-                            <div class="row">
-                                <div class="col-xs-2 col-md-1"></div>
-                                <h2 class="col-xs-10 col-md-9 article-title text-left">words</h2>
-                            </div>
-                            <div class="col-xs-4 col-md-2 circle"></div>
-                            <div class="col-xs-8 col-md-10 inner">ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes</div>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </div>
     </body>
