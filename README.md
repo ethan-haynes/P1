@@ -1,7 +1,7 @@
 # Title
 P1
 ## URL
-TODO
+http://p1.ehay.me
 ## Description
 This is a single page website
 ## Link to demo
@@ -10,7 +10,7 @@ TODO
 TODO
 ## Dependencies
 Frameworks: Bootstrap
-GoogleFonts: Lato
+GoogleFonts: Ubuntu
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
