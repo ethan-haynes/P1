@@ -6,16 +6,14 @@
 
             <title>Document</title>
 
-
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/jquery-ui.css">
         </head>
     <body>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/jquery-ui.css">
-
-        <div class="row"><div class="col-md-12 landing"> <div>Welcome</div> <span><div>this is project 1</div> </span></div></div>
+        <div class="row"><div class="col-xs-12 col-md-12 landing"> <div>Welcome</div> <span><div>this is project 1</div> </span></div></div>
         <div class="row">
-        <nav class="col-md-12 navbar navbar-default navbar-static-top">
+        <nav class="col-xs-12 col-md-12 navbar navbar-default navbar-static-top">
             <div class="container">
                 <ul class="nav nav-pills">
                     <li role="presentation"><a href="#">Project 1</a></li>
@@ -30,27 +28,28 @@
         <br>
     </div>
         <div class="row">
-        <div class="col-md-2"></div>
+        <div class="col-xs-1 col-md-2"></div>
             <div class="col-md-8 container">
                 <div class="content">
                     <div class="title">Ethan Haynes</div>
                         <button type="button" name="button">button</button>
                         <img src="imgs/head-small.jpg" alt="portrait"/>
                         <div class="row">
-                            <span>
-                            <a href="#"><div>P1 [live]</div></a>
-                            <a href="#"><div>P1 [github]</div></a>
-                            <a href="#"><div>P2 [live]</div></a>
-                            <a href="#"><div>P2 [github]</div></a>
-                            </span>
+                                <span class="col-xs-6 col-md-6 ">
+                                    <a href="#"><div>P1 [live]</div></a>
+                                    <a href="#"><div>P1 [github]</div></a>
+                                    <a href="#"><div>P2 [live]</div></a>
+                                    <a href="#"><div>P2 [github]</div></a>
+                                </span>
 
-                            <div></div>
-                            <span>
-                            <a href="#"><div>P3 [live]</div></a>
-                            <a href="#"><div>P3 [github]</div></a>
-                            <a href="#"><div>P4 [live]</div></a>
-                            <a href="#"><div>P4 [github]</div></a>
-                            </span>
+                                <div></div>
+                                
+                                <span class="col-xs-6 col-md-6 ">
+                                    <a href="#"><div>P3 [live]</div></a>
+                                    <a href="#"><div>P3 [github]</div></a>
+                                    <a href="#"><div>P4 [live]</div></a>
+                                    <a href="#"><div>P4 [github]</div></a>
+                                </span>
                         </div>
                     </div>
                         <ul>
@@ -87,7 +86,7 @@
                             </li>
                         </ul>
                 </div>
-            <div class="col-md-2"></div>
+            <div class="col-xs-1 col-md-2"></div>
         </div>
         <footer class="divider"></footer>
 
