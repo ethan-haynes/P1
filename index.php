@@ -3,11 +3,12 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="Expires" content="30" />
+
             <title>Document</title>
+
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="css/style.css">
-            <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
+            <link rel="stylesheet" href="css/jquery-ui.css">
         </head>
     <body>
         <div class="row"><div class="col-md-12 landing"> <div>Welcome</div> <span><div>this is project 1</div> </span></div></div>
