@@ -6,11 +6,13 @@
 
             <title>Document</title>
 
-            <link rel="stylesheet" href="css/bootstrap.min.css">
-            <link rel="stylesheet" href="css/style.css">
-            <link rel="stylesheet" href="css/jquery-ui.css">
+
         </head>
     <body>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+
         <div class="row"><div class="col-md-12 landing"> <div>Welcome</div> <span><div>this is project 1</div> </span></div></div>
         <div class="row">
         <nav class="col-md-12 navbar navbar-default navbar-static-top">
