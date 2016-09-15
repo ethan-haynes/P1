@@ -3,14 +3,11 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="Expires" content="30" />
             <title>Document</title>
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="css/style.css">
-            <script src="js/jquery.min.js" type="text/javascript"></script>
-            <script src="js/bootstrap.min.js" type="text/javascript"></script>
             <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
-            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
-            <script src="js/main.js" type="text/javascript"></script>
         </head>
     <body>
         <div class="row"><div class="col-md-12 landing"> <div>Welcome</div> <span><div>this is project 1</div> </span></div></div>
@@ -35,7 +32,7 @@
                 <div class="content">
                     <div class="title">Ethan Haynes</div>
                         <button type="button" name="button">button</button>
-                        <img src="imgs/head.jpg" alt="portrait"/>
+                        <img src="imgs/head-small.jpg" alt="portrait"/>
                         <div class="row">
                             <span>
                             <a href="#"><div>P1 [live]</div></a>
@@ -89,7 +86,12 @@
                 </div>
             <div class="col-md-2"></div>
         </div>
-
         <footer class="divider"></footer>
+
+        <!-- js scripts -->
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>
