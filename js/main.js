@@ -1,6 +1,5 @@
 (function($) {
     'use strict';
-    //scope safe
 
     //Document ready
     $(function() {
@@ -11,6 +10,10 @@
         var islocked = false; // if navBar is locked to top of screen
         var disabled = false; // prevent other animations until first promise is returned
 
+        /*
+         * on scroll event handler used to autoscroll from landing to the main
+         * page content & and vice versa
+         */
         $(window).scroll(function(event){
             if (disabled) { return; }
 
@@ -51,6 +54,5 @@
                 disabled = !disabled;
             });
         };
-
     });
 })(jQuery);
