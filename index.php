@@ -17,8 +17,8 @@
             <nav class="col-xs-12 col-md-12 navbar navbar-default navbar-static-top">
                 <div class="container">
                     <ul class="nav nav-pills">
-                        <li role="presentation"><a href="#">Project 1</a></li>
-                        <li role="presentation"><a href="#">Project 2</a></li>
+                        <li role="presentation"><a href="http://p1.ehay.me">Project 1</a></li>
+                        <li role="presentation"><a href="http://p2.ehay.me">Project 2</a></li>
                         <li role="presentation"><a href="#">Project 3</a></li>
                         <li role="presentation"><a href="#">Project 4</a></li>
                     </ul>
