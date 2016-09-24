@@ -42,12 +42,12 @@
                         <div class="col-md-2"></div>
                         <!-- column center -->
                         <div class="col-xs-3 col-md-2">
-                            <a href="#">P1 [live]</a>
-                            <a href="#">P1 [github]</a>
+                            <a href="http://p1.ehay.me#p1">P1 [live]</a>
+                            <a href="https://github.com/ethan-haynes/p1">P1 [github]</a>
                         </div>
                         <div class="col-xs-3 col-md-2 ">
-                            <a href="#">P2 [live]</a>
-                            <a href="#">P2 [github]</a>
+                            <a href="http://p2.ehay.me">P2 [live]</a>
+                            <a href="https://github.com/ethan-haynes/p2">P2 [github]</a>
                         </div>
 
                         <div class="col-xs-3 col-md-2 ">
