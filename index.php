@@ -19,8 +19,8 @@
                     <ul class="nav nav-pills">
                         <li role="presentation" id="p1"><a href="http://p1.ehay.me#p1">Project 1</a></li>
                         <li role="presentation"><a href="http://p2.ehay.me">Project 2</a></li>
-                        <li role="presentation"><a href="#">Project 3</a></li>
-                        <li role="presentation"><a href="#">Project 4</a></li>
+                        <li role="presentation"><a href="http://p3.ehay.me">Project 3</a></li>
+                        <li role="presentation"><a href="http://p4.ehay.me">Project 4</a></li>
                     </ul>
                 </div>
             </nav>
@@ -51,12 +51,12 @@
                         </div>
 
                         <div class="col-xs-3 col-md-2 ">
-                            <a href="#">P3 [live]</a>
-                            <a href="#">P3 [github]</a>
+                            <a href="http://p3.ehay.me">P3 [live]</a>
+                            <a href="https://github.com/ethan-haynes/p3">P3 [github]</a>
                         </div>
                         <div class="col-xs-3 col-md-2">
-                            <a href="#">P4 [live]</a>
-                            <a href="#">P4 [github]</a>
+                            <a href="http://p4.ehay.me">P4 [live]</a>
+                            <a href="https://github.com/ethan-haynes/p4">P4 [github]</a>
                         </div>
                         <!-- column right -->
                         <div class="col-md-2"></div>
